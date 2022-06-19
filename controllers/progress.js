@@ -13,7 +13,7 @@ exports.getAdminProgress = (req, res, next) => {
 };
 
 exports.getProject = (req, res, next) => {
-  res.render("/progress/project", {
+  res.render("progress/project", {
     path: "project",
     pageTitle: "Project",
   });
