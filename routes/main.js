@@ -5,4 +5,8 @@ const router = express.Router();
 
 router.get("/contact", mainController.getContact);
 
+router.get("/about", mainController.getAbout);
+
+router.get("/application", mainController.getApplication);
+
 module.exports = router;

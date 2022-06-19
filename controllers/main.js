@@ -4,3 +4,17 @@ exports.getContact = (req, res, next) => {
     pageTitle: "Contact Page",
   });
 };
+
+exports.getAbout = (req, res, next) => {
+  res.render("main/about", {
+    path: "about",
+    pageTitle: "About Page",
+  });
+};
+
+exports.getApplication = (req, res, next) => {
+  res.render("main/application", {
+    path: "application",
+    pageTitle: "Application Page",
+  });
+};
