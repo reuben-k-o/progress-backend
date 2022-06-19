@@ -5,8 +5,8 @@ exports.getSignup = (req, res, next) => {
 };
 
 exports.postSignup = (req, res, next) => {
-  const { fullName, email } = req.body;
-  console.log(fullName, email);
+  const { username, email } = req.body;
+  console.log(username, email);
 };
 
 exports.getLogin = (req, res, next) => {
