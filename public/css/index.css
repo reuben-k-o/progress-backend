@@ -42,3 +42,20 @@
   opacity: 0;
   transform: translateY(8rem);
 }
+
+/* Jumbotron */
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+.carousel-caption {
+  text-align: center;
+  justify-content: center;
+  top: 40%;
+  bottom: 0;
+
+  position: absolute;
+}
