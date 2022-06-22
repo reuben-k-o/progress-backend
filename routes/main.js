@@ -9,4 +9,6 @@ router.get("/about", mainController.getAbout);
 
 router.get("/application", mainController.getApplication);
 
+router.get("/", mainController.getIndex);
+
 module.exports = router;

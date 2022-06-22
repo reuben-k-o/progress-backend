@@ -1,3 +1,10 @@
+exports.getIndex = (req, res, next) => {
+  res.render("main/index", {
+    pageTitle: "Home",
+    path: "/",
+  });
+};
+
 exports.getContact = (req, res, next) => {
   res.render("main/contact", {
     path: "/contact",
