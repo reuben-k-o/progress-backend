@@ -1,8 +1,10 @@
 :root {
   --color-primary: white;
   --color-secondary: #000000;
-  --color-tertiary: #7cfc00;
+  --color-tertiary: #2d6502;
   --color-alternate: #808080;
+  --color-sec: #7cfc00;
+  --color-secondary-2: #377409;
   --gradient-primary: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
 

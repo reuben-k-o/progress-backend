@@ -3,4 +3,8 @@
   max-width: 90%;
   margin: auto;
   display: block;
+  margin-top: 50px;
+}
+.text-auth {
+  margin-top: 20px;
 }
